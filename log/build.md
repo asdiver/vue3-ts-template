@@ -46,3 +46,13 @@ pnpm add -d husky
 ### 引入eslint
 
 pnpm i eslint -D
+
+初始化模板：eslint --init 得到配置文件的配置样式
+
+新建eslint-extends文件夹，分化配置，以继承的方式结合
+
+根据官方文档中创建规则中额外的一些库
+
+*ts*
+
+
