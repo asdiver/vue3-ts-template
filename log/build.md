@@ -35,7 +35,14 @@ pnpm add pinia
 pnpm add -d @commitlint/config-conventional @commitlint/cli 
 
 pnpm add -d husky
+配置：
 
+初始化husky  pnpm dlx husky-init && pnpm install
 
+加入配置文件commitlint.config.cjs
 
-加入配置文件commitlint.config.ts
+加入commitlint钩子命令 ： npx --no-install commitlint --edit $1（来自官网）
+
+### 引入eslint
+
+pnpm i eslint -D
