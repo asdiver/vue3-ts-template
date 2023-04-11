@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "husky": "^8.0.3",
     "pinia": "^2.0.34",
     "vue": "^3.2.47",
     "vue-router": "4"

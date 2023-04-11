@@ -20,8 +20,6 @@ store：pinia全局参数
 
 views：页面组件
 
-
-
 ### 引入 pinia，vue-router包
 
 pnpm add vue-router@4
@@ -30,12 +28,10 @@ pnpm add pinia
 
 创建各自的初始调用代码
 
-
-
 ————至此，完成最最简单的第一版————
 
+### 引入 commitlint和husky
 
+pnpm add -d @commitlint/config-conventional @commitlint/cli 
 
-
-
-
+pnpm add -d husky
