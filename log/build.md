@@ -35,3 +35,7 @@ pnpm add pinia
 pnpm add -d @commitlint/config-conventional @commitlint/cli 
 
 pnpm add -d husky
+
+
+
+加入配置文件commitlint.config.ts
