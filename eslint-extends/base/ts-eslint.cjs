@@ -8,7 +8,7 @@ module.exports = {
   ],
   "parser": '@typescript-eslint/parser',
   "plugins": [
-    '@typescript-eslint'
+    '@typescript-eslint',
   ],
   // '@typescript-eslint'的相关规则
   "rules": {
@@ -22,5 +22,5 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-use-before-define': ['error', { ignoreTypeReferences: true }],
     '@typescript-eslint/no-unused-vars': ['error'],
-  }
+  },
 }

@@ -9,5 +9,5 @@ module.exports = {
   ],
   "rules": {
     // plugin:vue/vue3-recommended 中集成的一些规则
-  }
+  },
 }

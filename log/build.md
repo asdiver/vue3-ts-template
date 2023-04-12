@@ -55,4 +55,33 @@ pnpm i eslint -D
 
 *ts*
 
+```
+pnpm add --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
 
+*vue*
+
+```
+pnpm add -D eslint-plugin-vue 
+```
+
+其他：
+
+eslint安装后可能不会立马生效，可以重启vscode就好了
+
+eslint配置cjs文件为node环境
+
+```js
+  "overrides": [
+    {
+      "files": ["*.cjs"],
+      "env": {
+        "node": true,
+      },
+    },
+  ],
+```
+
+### 引入lint-staged
+
+pnpm add lint-staged -D
