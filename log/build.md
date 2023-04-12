@@ -98,8 +98,6 @@ npx husky add .husky/pre-commit 'npx lint-staged'
 
 测试成功
 
-
-
 ### eslint-plugin-filename-rules
 
 ( 额外加入，限制文件命名）
@@ -115,14 +113,26 @@ pnpm add-D eslint-plugin-filename-rules
   },
 ```
 
-
-
-
-
 ————完成v1.1 编码规范和git规范————
 
-Cypress
+### 引入vitest
 
+* 安装
 
-vitest
+```
+pnpm add -D vitest
+```
 
+* 在script中加入测试命令
+
+```
+"test": "vitest watch"
+```
+
+### 引入@vue/test-utils
+
+用于配合vitest测试vue组件
+
+```
+pnpm add --d @vue/test-utils
+```
