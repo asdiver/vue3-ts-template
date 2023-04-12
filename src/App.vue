@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 // todo 配置 eslint的excludedFiles
 const TestError = 1
-const a = 1 + 1
+const a = 1 + 1 
 </script>
 
 <template>
