@@ -89,3 +89,13 @@ pnpm add lint-staged -D
 添加配置文件 .lintstagedrc.js
 
 添加钩子命令：npx husky add .husky/pre-commit 'npx lint-staged'
+
+测试成功
+
+
+
+————完成v1.1 编码规范和git规范————
+
+
+
+
