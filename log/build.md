@@ -84,18 +84,45 @@ eslint配置cjs文件为node环境
 
 ### 引入lint-staged
 
+```
 pnpm add lint-staged -D
+```
 
 添加配置文件 .lintstagedrc.js
 
-添加钩子命令：npx husky add .husky/pre-commit 'npx lint-staged'
+添加钩子命令：
+
+```
+npx husky add .husky/pre-commit 'npx lint-staged'
+```
 
 测试成功
 
 
 
+### eslint-plugin-filename-rules
+
+( 额外加入，限制文件命名）
+
+```
+pnpm add-D eslint-plugin-filename-rules
+```
+
+```
+  "rules": {
+    // vue用大驼峰 ts用烧烤串
+    'filename-rules/match': [2, { '.vue': 'PascalCase', '.ts': 'kebabcase' }],
+  },
+```
+
+
+
+
+
 ————完成v1.1 编码规范和git规范————
 
+Cypress
 
 
+vitest
 

@@ -19,7 +19,7 @@ module.exports = {
     'scope-case': [0],
     'subject-full-stop': [0, 'never'],
     'subject-case': [0, 'never'],
-    'header-max-length': [0, 'always', 72]
-  }
+    'header-max-length': [0, 'always', 72],
+  },
 };
 // 这些配置是什么意思？请自行查阅commitlint文档

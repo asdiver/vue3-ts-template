@@ -20,7 +20,10 @@ module.exports = {
     "sourceType": "module",
   },
   "plugins": [
+    'filename-rules',
   ],
   "rules": {
+    // vue用大驼峰 ts用烧烤串
+    'filename-rules/match': [2, { '.vue': 'PascalCase', '.ts': 'kebabcase' }],
   },
 }
