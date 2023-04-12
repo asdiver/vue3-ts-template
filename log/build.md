@@ -85,3 +85,7 @@ eslint配置cjs文件为node环境
 ### 引入lint-staged
 
 pnpm add lint-staged -D
+
+添加配置文件 .lintstagedrc.js
+
+添加钩子命令：npx husky add .husky/pre-commit 'npx lint-staged'
