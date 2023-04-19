@@ -136,3 +136,15 @@ pnpm add -D vitest
 ```
 pnpm add --d @vue/test-utils
 ```
+
+
+
+
+
+23.4.19
+
+删除eslint-extend文件夹改用参与的仓库
+
+```
+pnpm add -D @fastcoder/eslint-config-vue
+```
