@@ -14,7 +14,7 @@ Front-end engineering combined with vue3-ts
 
 Details can be found in the file log/index.md
 
-### 注意
+### Careful
 
 This is the construction of an engineering project after personal learning, completed on 23.4.13
 
